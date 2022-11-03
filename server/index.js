@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const port = 8080;
+const port = 8000;
 const pool = require("./db");
 
 //middleware
@@ -14,7 +14,7 @@ app.listen(port, () => {
 
 //Routes
 //home
-app.get()
+//app.get()
 //get all users
-app.get()
+//app.get()
 
