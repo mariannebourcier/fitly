@@ -5,6 +5,7 @@ Fitly is a web and mobile friendly React application where users can achieve the
 ## Planning 
 
 ### ERD
+<img src="https://github.com/mariannebourcier/fitly/blob/main/docs/erd.png?raw=true" alt="entity relation diagram for database design">
 
 ### User Stories 
 <img src="https://github.com/mariannebourcier/coachable/blob/main/docs/userstoriesroutes.png?raw=true" alt="user stories screenshot">
