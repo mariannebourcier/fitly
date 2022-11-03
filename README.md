@@ -21,22 +21,22 @@ Database: PSQL
 
 ### Wireframes
 
-### Timeline
-Oct 21-31st: <br>
+### Tentative Timeline
+Nov1st-10th: <br>
 - ERD, User stories planning
 - Database Setup
 - Routes & Server setup <br>
 
-Nov 1st-10th: <br>
-- Create React components
+Nov 11th-20th: <br>
+- Create reusable React components
 - Wireframes planning <br>
 
-Nov 11th-20th: <br>
+Nov 21st-30th: <br>
 - Add functionality
 - Write tests & debug
 - Basic styling
 
-Nov 21st-30th: <br>
+Dec 1st-10th: <br>
 - Testing & debugging
 - Advanced styling
 
