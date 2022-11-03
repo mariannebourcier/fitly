@@ -14,7 +14,10 @@ app.listen(port, () => {
 
 //Routes
 //home
-//app.get()
+app.get('/', (req, res) => {
+  res.send('Hello world!');
+});
+
 //get all users
 //app.get()
 
