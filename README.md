@@ -15,6 +15,7 @@ Fitly is a web and mobile friendly React application where users can achieve the
 Front-end: React, SASS <br>
 Back-end: Node, Express <br>
 Database: PSQL
+Testing: Jest
 
 ### Routes
 
@@ -41,4 +42,5 @@ Dec 1st-10th: <br>
 - Advanced styling
 
 ### Notes
-
+- Test Driven Development
+- Reusability focus
