@@ -17,7 +17,9 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
   res.send('Hello world!');
 });
+//login post
+//logout post
+//profile 
+//signup
 
-//get all users
-//app.get()
 
