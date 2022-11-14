@@ -21,7 +21,8 @@ CREATE TABLE user_nutrition(
   calories INTEGER,
   fat INTEGER,
   protein INTEGER,
-  carbohydrate INTEGER
+  carbohydrate INTEGER,
+  date DATE NOT NULL
 );
 
 CREATE TABLE user_metrics(
