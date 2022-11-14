@@ -8,10 +8,6 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //access req body
 
-app.listen(port, () => {
-  console.log(`Server is listening on ${port}`);
-}); 
-
 //Routes
 //home
 app.get('/', (req, res) => {
@@ -19,7 +15,7 @@ app.get('/', (req, res) => {
 });
 //login post
 app.post('/login', (req, res) => {
-
+const { email, password } = req.body;
 })
 //logout post
 app.post('/logout', (req, res) => {
@@ -31,6 +27,12 @@ app.get('/profile/:id', (req, res) => {
 })
 //signup
 app.post('/register', (req, res) => {
-  
+
 })
 
+
+
+
+app.listen(port, () => {
+  console.log(`Server is listening on ${port}`);
+}); 
