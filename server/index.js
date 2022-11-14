@@ -17,6 +17,11 @@ app.get('/', (req, res) => {
 app.post('/login', (req, res) => {
 const { email, password } = req.body;
 })
+
+//login get
+app.get('/login', (req, res) => {
+  res.send('hello login page!');
+})
 //logout post
 app.post('/logout', (req, res) => {
 
