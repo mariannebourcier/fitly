@@ -18,8 +18,19 @@ app.get('/', (req, res) => {
   res.send('Hello world!');
 });
 //login post
-//logout post
-//profile 
-//signup
+app.post('/login', (req, res) => {
 
+})
+//logout post
+app.post('/logout', (req, res) => {
+
+})
+//profile 
+app.get('/profile/:id', (req, res) => {
+
+})
+//signup
+app.post('/register', (req, res) => {
+  
+})
 
