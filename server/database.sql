@@ -2,7 +2,7 @@
 -- Reset Database
 -- \i server/database.sql
 
-DROP TABLE IF EXISTS user CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS user_nutrition;
 DROP TABLE IF EXISTS user_metrics;
 
