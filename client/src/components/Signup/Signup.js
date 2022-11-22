@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Profile({ title }) {
+export default function Signup({ title }) {
   return (
     <div>
       <header>

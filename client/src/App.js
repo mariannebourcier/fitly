@@ -1,8 +1,9 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Profile from "./components/Profile/Profile"
-
+import Profile from "./components/Profile/Profile";
+import Signup from "./components/Signup/Signup";
+import Signin from "./components/Signin/Signin";
 //top level component
 //manage all routes
 function App() {
@@ -13,7 +14,10 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<Home title="Welcome to Fitly" />} />
-        <Route path="/profile" element={<Profile title="This is the profile page!" />} />
+        <Route path="profile" element={<Profile title="This is the profile page!" />} />
+        <Route path="signup" element={<Signup title="This is the signup page!" />} />
+        <Route path="signin" element={<Signin title="This is the signin page!" />} />
+
       </Routes>
     </div>
   );
