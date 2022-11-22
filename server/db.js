@@ -14,15 +14,15 @@ module.exports = pool;
 
 
 //functions to get data 
-const getUsers = () => {
-  return pool
-  .query(`SELECT * FROM users;`)
-  .then((res) => {
-    res.rows.forEach((row) => {
-      const id = row.id;
-      users[id] = row;
-    });
-    console.log( { users });
-  })
-  .catch((err) => console.error(err.stack))
-}
+// const getUsers = () => {
+//   return pool
+//   .query(`SELECT * FROM users;`)
+//   .then((res) => {
+//     res.rows.forEach((row) => {
+//       const id = row.id;
+//       users[id] = row;
+//     });
+//     console.log( { users });
+//   })
+//   .catch((err) => console.error(err.stack))
+// }
