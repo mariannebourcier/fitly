@@ -6,7 +6,9 @@ import "./Nav.css";
 export default function Nav({ title }) {
   return (
     <div className="navigation">
+      
        <nav>
+       <h1 className="name-nav">fitly</h1>
         <Link className="link" to="/profile">profile</Link>
         <Link className="link" to="/signup">sign up</Link>
         <Link className="link" to="/signin">sign in</Link>

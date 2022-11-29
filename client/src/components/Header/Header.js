@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <div className="header">
       
-        <h1>fitly</h1>
-        <p className="p-header"> ...the calorie tracker that actually works.</p>
+        <h1 className="name-header">fitly</h1>
+        <p className="p-header"> ...the calorie tracker that actually works. 🌱</p>
       
     </div>
 
