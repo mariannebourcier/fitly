@@ -2,6 +2,7 @@ import React from "react";
 
 
 export default function Calculator() {
+  
   return (
     <div className="calculator-container">
       <form>
@@ -17,13 +18,10 @@ export default function Calculator() {
           Goal:
           <input />
         </label>
-        <label>
-          Height:
-          <input />
-        </label>
+     
       </form>
 
-      <button>Confirm</button>
+      <button>Calculate</button>
     </div>
   )
 }
