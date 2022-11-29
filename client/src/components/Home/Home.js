@@ -1,11 +1,12 @@
 import React from "react";
+import './Home.css';
 
 export default function Home({ title }) {
   return (
     <div>
       <header>
       </header>
-      <h1>{title}</h1>
+      <p>{title}</p>
     </div>
   )
 }
