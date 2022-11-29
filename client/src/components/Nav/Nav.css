@@ -15,4 +15,9 @@ nav {
 .link {
   color: white;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  opacity: 60%;
 }

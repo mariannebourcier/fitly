@@ -4,7 +4,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer>
-      Thanks for visiting Fitly!
+      Thank you for visiting Fitly!
     </footer>
   )
 }

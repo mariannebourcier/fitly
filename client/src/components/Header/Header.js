@@ -7,7 +7,7 @@ export default function Header() {
     <div className="header">
       
         <h1>fitly</h1>
-        <p className="p-header"> ...where you can finally reach your fitness goals!</p>
+        <p className="p-header"> ...the calorie tracker that actually works.</p>
       
     </div>
 
