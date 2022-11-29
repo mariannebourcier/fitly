@@ -1,11 +1,21 @@
 import React from "react";
+import './Signin.css';
 
-export default function Signin({ title }) {
+export default function Signin() {
   return (
-    <div>
-      <header>
-      </header>
-      <h1>{title}</h1>
+    <div className="signin-form-container">
+      <form>
+        <label>
+          Email:
+          <input/>
+        </label>
+        <label>
+          Password:
+          <input />
+        </label>
+      </form>
+     
+     <button>Confirm</button>
     </div>
   )
 }
