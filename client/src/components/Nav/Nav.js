@@ -7,10 +7,10 @@ export default function Nav({ title }) {
   return (
     <div className="navigation">
        <nav>
-        <Link classname="link" to="/profile">Profile</Link>
-        <Link classname="link" to="/signup">Sign Up</Link>
-        <Link classname="link" to="/signin">Sign In</Link>
-        <Link classname="link" to="/calculate">Calculate</Link>
+        <Link className="link" to="/profile">Profile</Link>
+        <Link className="link" to="/signup">Sign Up</Link>
+        <Link className="link" to="/signin">Sign In</Link>
+        <Link className="link" to="/calculate">Calculate</Link>
       </nav>
     </div>
    
