@@ -1,7 +1,15 @@
-header {
-  background-color: lightblue;
-  color: white;
+.header {
+  border: solid 10px lightblue;
+  color: skyblue;
   margin: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+.p-header {
+  font-size: 30px;
 }

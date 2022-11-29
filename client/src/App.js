@@ -11,11 +11,12 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Nav />
+      <Header />
+     
 
       <Routes>
-        <Route path="/" element={<Home title="Welcome to Fitly" />} />
+        <Route path="/" element={<Home title="welcome to fitly" />} />
         <Route path="profile" element={<Profile title="This is the profile page!" />} >
           <Route path="profileID" element={<h1>This is a nested route!</h1>} />
         </Route>

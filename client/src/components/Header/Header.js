@@ -5,9 +5,10 @@ import './Header.css';
 export default function Header() {
   return (
     <div className="header">
-      <header>
-        <h1>FITLY</h1>
-      </header>
+      
+        <h1>fitly</h1>
+        <p className="p-header"> ...where you can finally reach your fitness goals</p>
+      
     </div>
 
   )

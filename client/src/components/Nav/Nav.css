@@ -1,6 +1,8 @@
 nav {
   display: flex;
-  flex-direction: column;
-  background-color: lavenderblush;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: lightblue;
 }
 
