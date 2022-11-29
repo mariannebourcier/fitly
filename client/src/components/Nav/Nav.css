@@ -3,6 +3,11 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
-  background-color: lightblue;
+  background-color: hsl(120, 20%, 50%);
 }
 
+.navigation {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}

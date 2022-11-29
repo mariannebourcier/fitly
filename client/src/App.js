@@ -6,6 +6,8 @@ import Signup from "./components/Signup/Signup";
 import Signin from "./components/Signin/Signin";
 import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 //top level component
 //manage all routes
 function App() {
@@ -16,7 +18,7 @@ function App() {
      
 
       <Routes>
-        <Route path="/" element={<Home title="welcome to fitly" />} />
+        <Route path="/" element={<Home title="welcome" />} />
         <Route path="profile" element={<Profile title="This is the profile page!" />} >
           <Route path="profileID" element={<h1>This is a nested route!</h1>} />
         </Route>
@@ -25,9 +27,7 @@ function App() {
         <Route path="calculate" element={<h1>Calculate your macros</h1>} />
       </Routes>
 
-      <footer>
-        Thanks for visiting Fitly!
-      </footer>
+    <Footer />
     </div>
   );
 }

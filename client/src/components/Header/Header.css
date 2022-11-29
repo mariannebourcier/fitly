@@ -1,15 +1,19 @@
 .header {
-  border: solid 10px lightblue;
-  color: skyblue;
+  border: solid 10px hsl(120, 20%, 50%);
+  color: hsl(120, 20%, 50%);
   margin: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  box-shadow: 5px 5px 5px  rgb(222, 223, 222);
 }
 
 h1 {
   font-size: 75px;
+  text-decoration: underline;
 }
 
 .p-header {
-  font-size: 30px;
+  font-size: 26px;
+  color: hsl(120, 20%, 50%);
 }
+
