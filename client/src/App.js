@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home title="welcome" />} />
         <Route path="profile" element={<Profile title="This is the profile page!" />} >
-          <Route path="profileID" element={<h1>This is a nested route!</h1>} />
+          <Route path="profile/profileID" element={<h1>This is a nested route!</h1>} />
         </Route>
         <Route path="signup" element={<Signup title="This is the signup page!" />} />
         <Route path="signin" element={<Signin title="This is the signin page!" />} />
