@@ -1,4 +1,4 @@
-nav {
+.nav-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,3 +30,7 @@ nav {
   text-decoration: underline 4px white;
 }
 
+.logo-link-container {
+  text-decoration: none;
+  height: 30px;
+}

@@ -5,7 +5,7 @@ import Profile from "./components/Profile/Profile";
 import Signup from "./components/Signup/Signup";
 import Signin from "./components/Signin/Signin";
 import Nav from './components/Nav/Nav';
-import Header from './components/Header/Header';
+//import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Calculator from './components/Calculator/Calculator';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Header />
+      {/* <Header /> */}
      
 
       <Routes>
