@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Nav.css";
 import Header from "../Header/Header";
+import ThemedButton from "../../contexts/Themes/Themes";
 
 
-export default function Nav({ title }) {
+export default function Nav({ title, props }) {
   return (
     <div className="navigation">
       <div className="nav-container">
@@ -15,7 +16,7 @@ export default function Nav({ title }) {
         <Link className="link" to="/signin">sign in</Link>
         <Link className="link" to="/calculate">calculate</Link>
       </div>
-
+      <ThemedButton />
       <Header />
     </div>
   )

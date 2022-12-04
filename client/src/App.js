@@ -8,16 +8,17 @@ import Nav from './components/Nav/Nav';
 //import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Calculator from './components/Calculator/Calculator';
+//import ThemeContext, { themes } from '../src/contexts/Themes/Themes';
 
 //top level component
 //manage all routes
 function App() {
   return (
     <div className="App">
+      {/* <ThemeContext.Provider value={themes.dark}> */}
       <Nav />
       {/* <Header /> */}
      
-
       <Routes>
         <Route path="/" element={<Home title="welcome" />} />
         <Route path="profile" element={<Profile title="This is the profile page!" />} >
@@ -29,6 +30,11 @@ function App() {
       </Routes>
 
     <Footer />
+
+      {/* </ThemeContext.Provider> */}
+      
+
+     
     </div>
   );
 }
