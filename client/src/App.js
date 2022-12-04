@@ -18,6 +18,7 @@ function App() {
       {/* <ThemeContext.Provider value={themes.dark}> */}
       <Nav />
       {/* <Header /> */}
+      {/* <Home /> */}
      
       <Routes>
         <Route path="/" element={<Home title="welcome" />} />
